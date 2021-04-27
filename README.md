@@ -4,8 +4,10 @@
 
 ## 機能一覧
 
-
+1. 
 
 ## その他
 
 - thymeleaf Template Engine
+- T-D-D
+- Controller -> Service -> repository / Domain （MVC）
