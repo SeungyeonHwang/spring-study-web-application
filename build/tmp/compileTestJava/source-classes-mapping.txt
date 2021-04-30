@@ -2,3 +2,5 @@ hello/hellospring/HelloSpringApplicationTests.java
  hello.hellospring.HelloSpringApplicationTests
 hello/hellospring/repository/MemoryMemberRepositoryTest.java
  hello.hellospring.repository.MemoryMemberRepositoryTest
+hello/hellospring/service/MemberServiceTest.java
+ hello.hellospring.service.MemberServiceTest

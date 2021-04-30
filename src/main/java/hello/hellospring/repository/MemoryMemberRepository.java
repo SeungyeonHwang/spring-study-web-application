@@ -1,10 +1,14 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 // interface의 구현체
+// 서비스로직이 아니기 때문에 기계적으로 구현(비즈니스적 요소 X)
+// 구현체에 Annotation
+//@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     // Save 할때 어딘가에는 저장을 해야 하기때문에 map 사용
