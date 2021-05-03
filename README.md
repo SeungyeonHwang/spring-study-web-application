@@ -19,3 +19,5 @@
 - JDBC
 - JDBCTemplate
 - JPA
+- AOP(Aspect Oriented Programming)
+    - Cross-cutting concern & Core concern ： 分ける

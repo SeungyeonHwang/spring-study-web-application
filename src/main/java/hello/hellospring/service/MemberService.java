@@ -30,10 +30,21 @@ public class MemberService {
      * 회원 가입
      */
     public Long join(Member member) {
-        // 같은 이름이 있는 중복 회원X
-        validateDuplicateMember(member);    // 중복 회원 검증
-        memberRepepository.save(member);
-        return member.getId();
+
+        //but 시간 측정 기능은 핵심 기능이 아니라 공통 기능이다.
+        //공통 관심사항 / 핵심관심 사항 -> 둘이 섞여있으면 유지보수 어렵다
+        long start = System.currentTimeMillis();    //AOP 설명 -> 메소드 호출시간 나오는 메소드 추가기능의 예
+
+        try {
+            // 같은 이름이 있는 중복 회원X
+            validateDuplicateMember(member);    // 중복 회원 검증
+            memberRepepository.save(member);
+            return member.getId();
+        } finally {
+            long finish = System.currentTimeMillis();
+            long timeMs = finish - start;
+            System.out.println("join = " + timeMs + "ms");
+        }
     }
 
     private void validateDuplicateMember(Member member) {

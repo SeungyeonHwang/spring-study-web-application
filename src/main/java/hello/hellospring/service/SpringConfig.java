@@ -1,6 +1,6 @@
 package hello.hellospring.service;
 
-import hello.hellospring.repository.*;
+import hello.hellospring.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -60,4 +60,9 @@ public class SpringConfig {
 //        return new DbMemoryMemberRepository();    // 구현체
 //    }
 
+    //AOP예시, 메소드 호출 시간 메소드 -> 인지가능 장소에
+//    @Bean
+//    public TimeTraceAop() {
+//        return new TimeTraceAop();
+//    }
 }
