@@ -9,6 +9,11 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * 단위 테스트(Unit Test)
+ */
+//이런식으로 순수하게 자바코드만으로 테스트 하는 것을 단위테스트 라고한다 -> 속도 빠름
+//단위테스트가 좋은 테스트일 확률이 높다, 이걸 쓸수 있도록 노력
 class MemberServiceTest {
 
     MemberService memberService;

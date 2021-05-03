@@ -6,6 +6,8 @@
 
 1. Show all Member
 2. Register new Member
+3. Find One
+4. Find All
 
 ## その他
 
@@ -14,3 +16,6 @@
 - Controller -> Service -> repository / Domain （MVC）
 - H2 DB Setup
 - DI
+- JDBC
+- JDBCTemplate
+- JPA

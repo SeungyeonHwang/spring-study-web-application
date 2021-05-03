@@ -1,10 +1,18 @@
+hello/hellospring/repository/JdbcTempleteMemberRepository.java
+ hello.hellospring.repository.JdbcTempleteMemberRepository
 hello/hellospring/controller/HelloController.java
  hello.hellospring.controller.HelloController
  hello.hellospring.controller.HelloController$Hello
-hello/hellospring/controller/MemberForm.java
- hello.hellospring.controller.MemberForm
 hello/hellospring/controller/MemberController.java
  hello.hellospring.controller.MemberController
+hello/hellospring/domain/Member.java
+ hello.hellospring.domain.Member
+hello/hellospring/repository/JdbcMemberRepository.java
+ hello.hellospring.repository.JdbcMemberRepository
+hello/hellospring/repository/JpaMemberRepository.java
+ hello.hellospring.repository.JpaMemberRepository
+hello/hellospring/controller/MemberForm.java
+ hello.hellospring.controller.MemberForm
 hello/hellospring/repository/MemberRepository.java
  hello.hellospring.repository.MemberRepository
 hello/hellospring/service/MemberService.java
@@ -13,11 +21,9 @@ hello/hellospring/controller/HomeController.java
  hello.hellospring.controller.HomeController
 hello/hellospring/repository/MemoryMemberRepository.java
  hello.hellospring.repository.MemoryMemberRepository
-hello/hellospring/domain/Member.java
- hello.hellospring.domain.Member
 hello/hellospring/HelloSpringApplication.java
  hello.hellospring.HelloSpringApplication
-hello/hellospring/repository/JdbcMemberRepository.java
- hello.hellospring.repository.JdbcMemberRepository
+hello/hellospring/repository/SpringDataJpaMemberRepository.java
+ hello.hellospring.repository.SpringDataJpaMemberRepository
 hello/hellospring/service/SpringConfig.java
  hello.hellospring.service.SpringConfig

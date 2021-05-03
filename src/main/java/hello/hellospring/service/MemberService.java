@@ -2,8 +2,7 @@ package hello.hellospring.service;
 
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,6 +10,7 @@ import java.util.Optional;
 // 비즈니스에 가까운 로직을 구현(비즈니스에 가까운 용어를 사용)
 // Autowired 연결 위해 Annotation, 빈등록안되면 Autowired 안먹는다
 //@Service
+@Transactional  //JPA 사용할려면 항상 Service계층에 Transactional
 public class MemberService {
 
     private final MemberRepository memberRepepository;
